@@ -136,10 +136,9 @@ def email_account_creation_status(data, output_file_path):
         return False
 
 # Function to send email
-# I don't have it send any emails because testing
 def send_email(email, username, password, firstname, lastname):
-    sender_email = "your_email@example.com"  # Update with your email address
-    app_password = ""  # Update with app password at runtime
+    sender_email = ""  # Update with email address
+    app_password = ""  # Update with app password
 
     message = MIMEMultipart()
     message['From'] = sender_email
