@@ -127,7 +127,7 @@ def email_account_creation_status(data, output_file_path):
 
                 # Send email notification
                 # the below line is commented out to prevent excess email spam and to help testing
-                # send_email(row['email'], row['username'], row['password'], row['first_name'], row['last_name'])
+                send_email(row['email'], row['username'], row['password'], row['first_name'], row['last_name'])
         
         logging.info(f"Account details written to {output_file_path}.")
         return True
