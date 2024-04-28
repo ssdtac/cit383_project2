@@ -2,8 +2,8 @@
 
 
 # Final project part 2
-# Christian Lane, Sachin Darji
-# lanec6, 
+# Christian Lane, Sachin Ranpal
+# lanec6, ranpaldars1
 
 import os, paramiko, datetime, smtplib, argparse, sys
 from email.mime.text import MIMEText

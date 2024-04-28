@@ -2,7 +2,8 @@
 
 
 # Final Project Part 1
-# Christian Lane, Sachin Darji
+# Christian Lane, Sachin Ranpal
+# lanec6, ranpaldars1
 
 
 import csv, subprocess, sys, logging, argparse, time, random, string, smtplib
